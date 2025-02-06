@@ -165,15 +165,15 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
 DISCUSSION_TITLE = "Click Here"
-DISCUSSION_CHAT_USRNM = "Discusss_Here" #without @
+DISCUSSION_CHAT_USRNM = "Movie_Request_Group_23" #without @
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/real_MoviesAdda3"
+DOWNLOAD_TEXT_URL = "https://t.me/HowtoDowlnoad/2"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/real_MoviesAdda3"
+CAPTION_BUTTON_URL = "https://t.me/AllBotUpdatemy"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
