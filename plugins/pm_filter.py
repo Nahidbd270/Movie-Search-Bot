@@ -2023,7 +2023,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             reply_markup_lzdv = InlineKeyboardMarkup(btn_lzdv) 
             reply_markup = InlineKeyboardMarkup(btn)
-            await client.send_message(int(user_id), f"🌍 Your spelling matters.\nThe requested content `{movie}` is available in our database, You were unable to get it because of your spelling mistake.🧐 Please make sure you've spelled correctly while searching content in group...\n\n❤Thank u for supporting us.", reply_markup=reply_markup)
+            await client.send_message(int(user_id), f"🌍 আপনার বানান গুরুত্বপূর্ণ.\nঅনুরোধ করা বিষয়বস্তু `{movie}` আমাদের ডাটাবেসে পাওয়া যাচ্ছে, আপনার বানান ভুলের কারণে আপনি এটি পেতে পারেননি।🧐 গ্রুপে কন্টেন্ট অনুসন্ধান করার সময় দয়া করে নিশ্চিত করুন যে আপনি সঠিকভাবে বানান লিখেছেন।...\n\n❤Thank u for supporting us.", reply_markup=reply_markup)
             await query.edit_message_text(text=f"- __**User notified successfully sweetie...✅**__\n\n⏳**Status** : Spelling error 🖊.\n🪪**UserID** : `{user_id}`\n🎞**Content** : `{movie}`\n\n\n🦋",reply_markup=reply_markup_lzdv)
         # Delete callback query message
             await query.answer()
@@ -2048,7 +2048,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             reply_markup_lzdv = InlineKeyboardMarkup(btn_lzdv) 
             reply_markup = InlineKeyboardMarkup(btn)
-            await client.send_message(int(user_id), f"🌍 Your spelling matters.\nThe requested content `{movie}` is available in our database, You were unable to get it because of your spelling mistake.🧐 Please make sure you've spelled correctly while searching content in group...\n\n❤Thank u for supporting us.", reply_markup=reply_markup)
+            await client.send_message(int(user_id), f"🌍 আপনার বানান গুরুত্বপূর্ণ.\nঅনুরোধ করা বিষয়বস্তু `{movie}` আমাদের ডাটাবেসে পাওয়া যাচ্ছে, আপনার বানান ভুলের কারণে আপনি এটি পেতে পারেননি।🧐 গ্রুপে কন্টেন্ট অনুসন্ধান করার সময় দয়া করে নিশ্চিত করুন যে আপনি সঠিকভাবে বানান লিখেছেন।...\n\n❤Thank u for supporting us.", reply_markup=reply_markup)
             await query.edit_message_text(text=f"- __**User notified successfully sweetie...✅**__\n\n⏳**Status** : Spelling error 🖊.\n🪪**UserID** : `{user_id}`\n🎞**Content** : `{movie}`\n\n\n🦋",reply_markup=reply_markup_lzdv)
         # Delete callback query message
             await query.answer()
