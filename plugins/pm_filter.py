@@ -2785,7 +2785,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply(f"Hey Bady! The requested content is currently unavailable in our database, have some patience 🙂 - our great admin will upload it as soon as possible \n\n               **or**\n\nDiscuss issue with admin here 👉  <a href='https://t.me/{DISCUSSION_CHAT_USRNM}'>{DISCUSSION_TITLE}</a> ♥️ ")
+        k = await msg.reply(f"হ্যালো বন্ধু! অনুরোধ করা কন্টেন্টটি বর্তমানে আমাদের ডাটাবেসে নেই , একটু ধৈর্য ধরুন 🙂 - আমাদের দুর্দান্ত অ্যাডমিন যত তাড়াতাড়ি সম্ভব এটি আপলোড করবেন। \n\n               **or**\n\nDiscuss issue with admin here 👉  <a href='https://t.me/{DISCUSSION_CHAT_USRNM}'>{DISCUSSION_TITLE}</a> ♥️ ")
         await asyncio.sleep(10)
         await k.delete()
         return
