@@ -2797,7 +2797,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply(f"Hey Bady, did you checked your spelling properly, here are some suggestions for you, please check if your requested content match anyone of these following suggestions...\n\n                 **or**\n\nDiscuss issue with admin here 👉 <a href='https://t.me/{DISCUSSION_CHAT_USRNM}'>{DISCUSSION_TITLE}</a> ♥️ ",
+    await msg.reply(f"হ্যালো বন্ধু , আপনি কি আপনার বানান ঠিকমতো পরীক্ষা করেছ? এখানে আপনার জন্য কিছু পরামর্শ দেওয়া হল, অনুগ্রহ করে পরীক্ষা করে দেখো যে তোমার অনুরোধ করা বিষয়বস্তু নিচের পরামর্শগুলোর সাথে মেলে কিনা।...\n\n                 **or**\n\nDiscuss issue with admin here 👉 <a href='https://t.me/{DISCUSSION_CHAT_USRNM}'>{DISCUSSION_TITLE}</a> ♥️ ",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
