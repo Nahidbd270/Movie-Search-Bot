@@ -2450,7 +2450,7 @@ async def auto_filter(client, msg, spoll=False):
                                                                                                                                         [ InlineKeyboardButton("HIN", callback_data="read_in_hin"),
                                                                                                                                           InlineKeyboardButton("ENG", callback_data="read_in_eng"),
                                                                                                                                           InlineKeyboardButton("MAL", callback_data="read_in_mal"),
-                                                                                                                                          InlineKeyboardButton("TAM", callback_data="read_in_tam")
+                                                                                                                                          InlineKeyboardButton("BEN", callback_data="read_in_ben")
                                                                                                                                         ],[
                                                                                                                                           InlineKeyboardButton("Sanskrit", callback_data="read_in_san"),
                                                                                                                                           InlineKeyboardButton("Urdu", callback_data="read_in_urd")
