@@ -1973,7 +1973,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             reply_markup_lzdv = InlineKeyboardMarkup(btn_lzdv) 
             reply_markup = InlineKeyboardMarkup(btn)
-            await client.send_message(int(user_id), f"✅ হ্যালো বন্ধু , তোমার অনুরোধ করা কন্টেন্টের নাম `{movie}` is now available in our database! You can easily get this movie by searching it's correct name in our official group...\n\n❤ Thank You for the contribution", reply_markup=reply_markup)
+            await client.send_message(int(user_id), f"✅ হ্যালো বন্ধু , তোমার অনুরোধ করা কন্টেন্টের নাম `{movie}` এখন আমাদের ডাটাবেসে পাওয়া যাচ্ছে! আমাদের অফিসিয়াল গ্রুপে এর সঠিক নাম অনুসন্ধান করে আপনি সহজেই এই সিনেমাটি পেতে পারেন।...\n\n❤ Thank You for the contribution", reply_markup=reply_markup)
             await query.edit_message_text(text=f"- __**User notified successfully sweetie...✅**__\n\n⏳**Status** : Upload done ✅.\n🪪**UserID** : `{user_id}`\n🎞**Content** : `{movie}`\n\n\n🦋", reply_markup=reply_markup_lzdv)
         # Delete callback query message
             await query.answer()
@@ -1998,7 +1998,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]]
             reply_markup_lzdv = InlineKeyboardMarkup(btn_lzdv) 
             reply_markup = InlineKeyboardMarkup(btn)
-            await client.send_message(int(user_id), f"🙇‍♀️ Sorry Darling! Your requested content named `{movie}` is rejected by our **ADMiN**, we are really very sorry for the inconvenience, we can't process your request at the moment...\n\n❤️‍🩹Keep your search environment friendly, sweetheart!", reply_markup=reply_markup)
+            await client.send_message(int(user_id), f"🙇‍♀️ দুঃখিত বন্ধু ! আপনার অনুরোধ করা কন্টেন্টের নাম `{movie}` আমাদের **ADMiN** কর্তৃক প্রত্যাখ্যাত হয়েছে, অসুবিধার জন্য আমরা সত্যিই দুঃখিত, আমরা এই মুহূর্তে আপনার অনুরোধটি প্রক্রিয়া করতে পারছি না।...\n\n❤️‍🩹Keep your search environment friendly, sweetheart!", reply_markup=reply_markup)
             await query.edit_message_text(text=f"- __**User notified successfully sweetie...✅**__\n\n⏳**Status** : Request Rejected ❌.\n🪪**UserID** : `{user_id}`\n🎞**Content** : `{movie}`\n\n\n🦋",reply_markup=reply_markup_lzdv)
         # Delete callback query message
             await query.answer()
